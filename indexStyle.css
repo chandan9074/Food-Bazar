@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.home-part{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(picture/home-bg.jpg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+
+}
+.home-left-part{
+    padding: 10vh;
+}
+.home-pic{
+    width: 60vh;
+    /* height: 75%; */
+    padding-left: 6%;
+    padding-top: 5%;
+    /* margin-left: 30%; */
+}
+.home-align{
+    width: 50%;
+    /* margin-left: 5%; */
+    margin-top: 5%;
+}
+.home-head-txt{
+    font-size: 8.3vh;
+    margin: 0;
+    color: rgb(58, 89, 102);
+}
+.home-sub-txt{
+    font-size: 3.4vh;
+    width: 85%;
+    text-align: justify;
+    color: rgb(94, 92, 92);
+}
+.skip-txt{
+    color: rgb(6, 165, 228);
+}
+.order-btn{
+    outline: none;
+    border: none;
+    font-size: 2.3vh;
+    padding: 2.5vh 4.5vh;
+    border-radius: 5vh;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(90deg, rgb(5, 169, 235), skyblue);
+}
+.about-part{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    background-image: url(picture/about-bg.jpg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.about-align{
+    margin-top: auto;
+    width: 50%;
+}
+
+.about-contant-align{
+    margin:auto 0;
+}
+.about-pic{
+    width: 60vh;
+    padding-left: 20%;
+}
+.about-head-txt{
+    font-size: 7vh;
+    margin: 0;
+    padding-bottom: 3vh;
+    color: rgb(155, 102, 4);
+}
+.about-sub-txt{
+    font-size: 2.5vh;
+    text-align: justify;
+    width: 85%;
+    color: rgb(61, 61, 61);
+}
+.contact-btn{
+    margin-top: 3vh;
+    outline: none;
+    border: none;
+    font-size: 2.3vh;
+    padding: 2.5vh 4.5vh;
+    border-radius: 5vh;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(90deg, orange, tomato);
+}
