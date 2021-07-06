@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="picture/cup.png">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="indexStyle.css">
@@ -14,23 +15,29 @@
 
 <body>
     <div>
-        <div>
-
-        </div>
-        <div class="home-part">
+        <section class="navbar">
+            <img class="cup-img" src="picture/cup.png" alt="cup">
+            <div class="nav-align">
+                <a class="nav-btn" href="#home">Home</a>
+                <a class="nav-btn" href="#about">About us</a>
+                <a class="nav-btn" href="#recipe">Recipe</a>
+                <a class="nav-btn" href="#contact">Contact us</a>
+            </div>
+        </section>
+        <section class="home-part" id="home">
             <div class="home-align home-left-part">
                 <h1 class="home-head-txt"><span class="skip-txt">Skip</span> The Diet,</h1>
                 <h1 class="home-head-txt">Just Eat Healthy</h1>
                 <h1 class="home-head-txt">With Food Bazar</h1>
                 <p class="home-sub-txt">Imagine you don't need a diet because we provide healthy and delicious food for
                     you!</p>
-                <button class="order-btn">Order Food</button>
+                <a href="https://github.com/chandan9074/Food-Bazar" target="_blank"><button class="order-btn" >Order Food</button></a>
             </div>
             <div class="home-align">
                 <img class="home-pic" src="picture/home_pic.png" alt="eat_man">
             </div>
-        </div>
-        <div class="about-part">
+        </section>
+        <section class="about-part" id="about">
             <div class="about-align">
                 <img class="about-pic" src="picture/about-man.png" alt="about-man">
             </div>
@@ -45,9 +52,65 @@
                     coming back for
                     more.
                 </p>
-                <button class="contact-btn">Contact Me</button>
+                <a href="https://github.com/chandan9074/Food-Bazar" target="_blank"><button class="contact-btn">Contact Me</button></a>
             </div>
-        </div>
+        </section>
+        <section class="recipe-page" id="recipe">
+            <div class="recipe-text-part">
+                <h1 class="recipe-head-txt">Best Recipe</h1>
+                <p class="recipe-sub-txt">Pizza is the ultimate comfort food loved by both kids and adults. It’s one of
+                    those dishes that just thinking of it puts
+                    a smile on your face.</p>
+            </div>
+            <div class="card-part">
+                <div class="card-style" id="card-align1">
+                    <img class="food-img" src="picture/f1.png" alt="food-img">
+                    <h1 class="recipe-name">Superfood Salad</h1>
+                    <p class="recipe-des">For those looking to strengthen their immune system, this gluten-free and
+                        vegan salad is an
+                        immunity quick-fix.</p>
+                </div>
+                <div class="card-style" id="card-align2">
+                    <img class="food-img" src="picture/f2.png" alt="food-img">
+                    <h1 class="recipe-name">Mixed Salad</h1>
+                    <p class="recipe-des">A quick and easy-to-make salad to amp up your diet with a health quotient and
+                        a dash of variety.
+                    </p>
+                </div>
+                <div class="card-style" id="card-align3">
+                    <img class="food-img" src="picture/f3.png" alt="food-img">
+                    <h1 class="recipe-name">Mixed Corn</h1>
+                    <p class="recipe-des">Craving for chaat? Try this healthy sprouts and corn chaat recipe.</p>
+                </div>
+            </div>
+        </section>
+        <section class="contact-part" id="contact">
+            <div class="contact-left-part">
+                <h1 class="contact-head-txt">Send a Messege</h1>
+                <div class="form">
+                    <input class="form-field" type="text" placeholder="Your Name">
+                    <textarea id="form-des" placeholder="Say somthing" cols="30" rows="10" ></textarea>
+                    <input class="form-field" type="email" placeholder="your mail">
+                    <a href="https://github.com/chandan9074/Food-Bazar" target="_blank"><button class="send-btn">Send</button></a>
+                </div>
+            </div>
+            <div class="contact-right-part">
+                <h1 class="contact-head-txt" id="contact-info-head">Contact Information</h1>
+                <div class="info-content">
+                    <img class="contact-img" src="picture/addr.png" alt="address"> <span class="info-txt">Airport, Dhaka</span>
+                </div>
+                <div class="info-content">
+                    <img class="contact-img" src="picture/phn.png" alt="phone"> <span class="info-txt">01833399983</span>
+                </div>
+                <div class="info-content">
+                    <img class="contact-img" src="picture/mail.png" alt="phone"> <span class="info-txt">chandanraj9074@gmail.com</span>
+                </div>
+            </div>
+        </section>
+        <footer class="footer-part">
+            <h1 class="foot-head"><span class="foot-food">Food</span><span class="foot-bazar"> Bazar</span></h1>
+            <p class="foot-sub">Pull up a chair. Take a taste. Come join us. Life is so endlessly delicious.</p>
+        </footer>
     </div>
 </body>
 

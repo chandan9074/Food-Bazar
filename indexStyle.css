@@ -1,98 +1,286 @@
-body{
-    margin: 0;
-    font-family: 'Rubik', sans-serif;
+body {
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+  scroll-behavior: smooth;
 }
 
-.home-part{
-    width: 100%;
-    height: 90vh;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url(picture/home-bg.jpg);
-    background-size: cover;
-    background-position: left;
-    background-repeat: no-repeat;
-
-}
-.home-left-part{
-    padding: 10vh;
-}
-.home-pic{
-    width: 60vh;
-    /* height: 75%; */
-    padding-left: 6%;
-    padding-top: 5%;
-    /* margin-left: 30%; */
-}
-.home-align{
-    width: 50%;
-    /* margin-left: 5%; */
-    margin-top: 5%;
-}
-.home-head-txt{
-    font-size: 8.3vh;
-    margin: 0;
-    color: rgb(58, 89, 102);
-}
-.home-sub-txt{
-    font-size: 3.4vh;
-    width: 85%;
-    text-align: justify;
-    color: rgb(94, 92, 92);
-}
-.skip-txt{
-    color: rgb(6, 165, 228);
-}
-.order-btn{
-    outline: none;
-    border: none;
-    font-size: 2.3vh;
-    padding: 2.5vh 4.5vh;
-    border-radius: 5vh;
-    color: rgb(255, 255, 255);
-    background-image: linear-gradient(90deg, rgb(5, 169, 235), skyblue);
-}
-.about-part{
-    width: 100%;
-    height: 80vh;
-    display: flex;
-    background-image: url(picture/about-bg.jpg);
-    background-size: cover;
-    background-position: left;
-    background-repeat: no-repeat;
-}
-.about-align{
-    margin-top: auto;
-    width: 50%;
+html {
+  scroll-behavior: smooth;
 }
 
-.about-contant-align{
-    margin:auto 0;
+.navbar {
+  width: 100%;
+  height: 9vh;
+  position: fixed;
+  background-color: #bbeeff;
 }
-.about-pic{
-    width: 60vh;
-    padding-left: 20%;
+
+.nav-align {
+  float: right;
+  margin: 2.5vh;
 }
-.about-head-txt{
-    font-size: 7vh;
-    margin: 0;
-    padding-bottom: 3vh;
-    color: rgb(155, 102, 4);
+.cup-img {
+  width: 6vh;
+  margin-left: 20vh;
+  margin-top: 1vh;
 }
-.about-sub-txt{
-    font-size: 2.5vh;
-    text-align: justify;
-    width: 85%;
-    color: rgb(61, 61, 61);
+.nav-btn {
+  text-decoration: none;
+  margin-right: 4vh;
+  font-size: 3vh;
 }
-.contact-btn{
-    margin-top: 3vh;
-    outline: none;
-    border: none;
-    font-size: 2.3vh;
-    padding: 2.5vh 4.5vh;
-    border-radius: 5vh;
-    color: rgb(255, 255, 255);
-    background-image: linear-gradient(90deg, orange, tomato);
+
+.home-part {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(picture/home-bg.jpg);
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+.home-left-part {
+  padding: 10vh;
+}
+.home-pic {
+  width: 60vh;
+  /* height: 75%; */
+  padding-left: 6%;
+  padding-top: 5%;
+  /* margin-left: 30%; */
+}
+.home-align {
+  width: 50%;
+  /* margin-left: 5%; */
+  margin-top: 5%;
+}
+.home-head-txt {
+  font-size: 8.3vh;
+  margin: 0;
+  color: rgb(58, 89, 102);
+}
+.home-sub-txt {
+  font-size: 3.4vh;
+  width: 85%;
+  text-align: justify;
+  color: rgb(94, 92, 92);
+}
+.skip-txt {
+  color: rgb(6, 165, 228);
+}
+.order-btn {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-size: 2.3vh;
+  padding: 2.5vh 4.5vh;
+  border-radius: 5vh;
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(90deg, rgb(5, 169, 235), skyblue);
+}
+.about-part {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  background-image: url(picture/about-bg.jpg);
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+.about-align {
+  margin-top: auto;
+  width: 50%;
+}
+
+.about-contant-align {
+  margin: auto 0;
+}
+.about-pic {
+  width: 60vh;
+  padding-left: 20%;
+  display: block;
+}
+.about-head-txt {
+  font-size: 7vh;
+  margin: 0;
+  padding-bottom: 3vh;
+  color: rgb(155, 102, 4);
+}
+.about-sub-txt {
+  font-size: 2.5vh;
+  text-align: justify;
+  width: 85%;
+  color: rgb(61, 61, 61);
+}
+.contact-btn {
+  margin-top: 3vh;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  font-size: 2.3vh;
+  padding: 2.5vh 4.5vh;
+  border-radius: 5vh;
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(90deg, orange, tomato);
+}
+.recipe-page {
+  width: 100%;
+  height: 90vh;
+}
+.recipe-text-part {
+  width: 100%;
+  text-align: center;
+}
+.recipe-head-txt {
+  font-size: 7vh;
+  margin: 8vh 0 3vh 0;
+}
+.recipe-sub-txt {
+  width: 50%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.food-img {
+  width: 100%;
+  border-radius: 2vh;
+}
+.card-part {
+  display: flex;
+  margin-top: 10vh;
+}
+.card-style {
+  padding: 2.5vh 2.5vh 4vh 2.5vh;
+  width: 20%;
+  box-shadow: 0 0 5vh rgb(112, 112, 112);
+  border-radius: 3vh;
+}
+#card-align1 {
+  margin-left: auto;
+}
+#card-align2 {
+  margin-left: 7vh;
+}
+#card-align3 {
+  margin-left: 7vh;
+  margin-right: auto;
+}
+.recipe-name {
+  font-size: 3vh;
+  margin: 2vh 0 0 0;
+}
+.recipe-des {
+  width: 100%;
+  margin: 2.5vh 0 0 0;
+  text-align: justify;
+}
+.card-align {
+  width: 100%;
+}
+
+.contact-part {
+  width: 100%;
+  height: 55vh;
+  display: flex;
+  background-image: url(picture/contact-bg.jpg);
+  background-size: cover;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.contact-left-part {
+  width: 60%;
+  padding-left: 12%;
+  padding-top: 2vh;
+}
+.contact-right-part {
+  background-color: gray;
+  width: 40%;
+  padding-left: 5%;
+  padding-top: 2%;
+  background-image: url(picture/con-r-bg.jpg);
+}
+.contact-img {
+  width: 2vh;
+  margin-top: 0.5vh;
+}
+.form-field {
+  width: 60%;
+  height: 5vh;
+  outline: none;
+  border: none;
+  border-radius: 1vh;
+  box-shadow: 0 0 2vh gray;
+  padding-left: 1.5vh;
+  font-size: 2.2vh;
+}
+#form-des {
+  padding-left: 1.5vh;
+  padding-top: 1.5vh;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  border-radius: 1vh;
+  width: 60%;
+  height: 10vh;
+  resize: none;
+  outline: none;
+  border: none;
+  font-size: 2.2vh;
+  box-shadow: 0 0 2vh gray;
+}
+.send-btn {
+  width: 20%;
+  margin-top: 3vh;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 2.3vh;
+  padding: 1.5vh 1vh;
+  border-radius: 5vh;
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(
+    90deg,
+    rgb(226, 171, 67),
+    rgb(247, 135, 115)
+  );
+}
+.info-txt {
+  margin-left: 1vh;
+  font-size: 2.5vh;
+  color: honeydew;
+}
+.info-content {
+  margin-top: 3vh;
+  margin-left: 2vh;
+}
+.contact-head-txt {
+  font-size: 4vh;
+}
+#contact-info-head {
+  color: honeydew;
+  margin: 3vh 0 5vh 0;
+}
+.footer-part {
+  width: 100%;
+  height: 15vh;
+  background-color: rgb(2, 39, 44);
+  text-align: center;
+  padding-top: 2.5vh;
+}
+.foot-head {
+  margin: 0;
+  font-size: 3vh;
+}
+.foot-food {
+  color: orange;
+}
+.foot-bazar {
+  color: rgb(60, 145, 133);
+}
+.foot-sub {
+  font-size: 2vh;
+  color: antiquewhite;
 }
