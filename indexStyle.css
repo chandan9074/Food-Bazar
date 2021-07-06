@@ -48,14 +48,11 @@ html {
 }
 .home-pic {
   width: 60vh;
-  /* height: 75%; */
   padding-left: 6%;
   padding-top: 5%;
-  /* margin-left: 30%; */
 }
 .home-align {
   width: 50%;
-  /* margin-left: 5%; */
   margin-top: 5%;
 }
 .home-head-txt {
@@ -72,7 +69,7 @@ html {
 .skip-txt {
   color: rgb(6, 165, 228);
 }
-.order-btn {
+.location-btn {
   cursor: pointer;
   outline: none;
   border: none;
@@ -125,7 +122,6 @@ html {
   padding: 2.5vh 4.5vh;
   border-radius: 5vh;
   color: rgb(255, 255, 255);
-  /* background-image: linear-gradient(90deg, orange, tomato); */
   background-image: linear-gradient(
     90deg,
     rgb(238, 46, 46),
@@ -161,7 +157,7 @@ html {
 }
 .card-style {
   padding: 2.5vh 2.5vh 4vh 2.5vh;
-  width: 20%;
+  width: 40vh;
   box-shadow: 0 0 5vh rgb(112, 112, 112);
   border-radius: 3vh;
 }
@@ -183,6 +179,7 @@ html {
   width: 100%;
   margin: 2.5vh 0 0 0;
   text-align: justify;
+  font-size: 2vh;
 }
 .card-align {
   width: 100%;
@@ -291,4 +288,54 @@ html {
 .foot-sub {
   font-size: 2vh;
   color: antiquewhite;
+}
+.order-part {
+  width: 100%;
+  height: 70vh;
+  background-color: rgb(248, 194, 184);
+  display: flex;
+}
+
+.order-r-part {
+  width: 50%;
+  margin: auto 0 auto 0;
+}
+.order-l-part {
+  width: 50%;
+  margin: auto 0 auto 0;
+}
+.order-img {
+  margin-left: 15vh;
+  width: 60vh;
+}
+
+.order-head {
+  margin: 0 0 7vh 5vh;
+  font-size: 4vh;
+  width: 60%;
+  color: rgb(75, 70, 65);
+}
+.order-sub {
+  font-size: 2.5vh;
+  margin: 0 0 7vh 5vh;
+  width: 60%;
+  text-align: justify;
+  color: rgb(99, 93, 87);
+}
+
+.order-btn {
+  margin-left: 5vh;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  font-size: 2.3vh;
+  padding: 2.5vh 4.5vh;
+  border-radius: 5vh;
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(
+    90deg,
+    rgb(240, 104, 80),
+    rgb(235, 123, 104)
+  );
 }
